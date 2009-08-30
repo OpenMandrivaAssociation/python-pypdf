@@ -22,6 +22,14 @@ A Pure-Python library built as a PDF toolkit. It is capable of:
     * merging multiple pages into a single page,
     * encrypting and decrypting PDF files.
 
+%files
+%defattr(-,root,root)
+%doc README CHANGELOG
+%{py_puresitedir}/pyPdf-1.12-py2.6.egg-info
+%dir %{py_puresitedir}/%{module}
+%{py_puresitedir}/%{module}/*
+
+#--------------------------------------------------------------------
 
 %prep
 %setup -q -n %{module}-%{version}
@@ -34,11 +42,3 @@ A Pure-Python library built as a PDF toolkit. It is capable of:
 
 %clean
 %__rm -rf %{buildroot}
-
-%files
-%defattr(-,root,root)
-%doc README CHANGELOG
-%{py_puresitedir}/pyPdf-1.12-py2.6.egg-info
-%dir %{py_puresitedir}/%{module}
-%{py_puresitedir}/%{module}/*
-
