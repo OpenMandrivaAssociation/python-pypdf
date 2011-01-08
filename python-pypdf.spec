@@ -2,8 +2,8 @@
 
 Summary:	Pure-Python PDF toolkit
 Name:		python-pypdf
-Version:	1.12
-Release:	%mkrel 2
+Version:	1.13
+Release:	%mkrel 1
 Source0:	http://pybrary.net/pyPdf/%{module}-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
@@ -25,7 +25,7 @@ A Pure-Python library built as a PDF toolkit. It is capable of:
 %files
 %defattr(-,root,root)
 %doc README CHANGELOG
-%{py_puresitedir}/pyPdf-1.12-py%{pyver}.egg-info
+%{py_puresitedir}/pyPdf-%{version}-py%{pyver}.egg-info
 %dir %{py_puresitedir}/%{module}
 %{py_puresitedir}/%{module}/*
 
