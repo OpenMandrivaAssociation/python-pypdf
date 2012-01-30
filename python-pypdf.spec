@@ -25,7 +25,7 @@ A Pure-Python library built as a PDF toolkit. It is capable of:
 %files
 %defattr(-,root,root)
 %doc README CHANGELOG
-%{py_puresitedir}/pyPdf-%{version}-py%{pyver}.egg-info
+%{py_puresitedir}/pyPdf-%{version}-py%{py_ver}.egg-info
 %dir %{py_puresitedir}/%{module}
 %{py_puresitedir}/%{module}/*
 
