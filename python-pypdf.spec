@@ -3,7 +3,7 @@
 Summary:	Pure-Python PDF toolkit
 Name:		python-pypdf
 Version:	1.13
-Release:	2
+Release:	3
 Source0:	http://pybrary.net/pyPdf/%{module}-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
