@@ -7,7 +7,7 @@ Release:	3
 Source0:	http://pybrary.net/pyPdf/%{module}-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
-Url:		http://pybrary.net/pyPdf/
+Url:		https://pybrary.net/pyPdf/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Provides:	%{module}
 BuildRequires:	python-devel
