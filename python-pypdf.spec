@@ -22,10 +22,8 @@ A Pure-Python library built as a PDF toolkit. It is capable of:
     * encrypting and decrypting PDF files.
 
 %files
-#{py_puresitedir}/pyPdf-%{version}-py%{py_ver}.egg-info
-#dir %{py_puresitedir}/%{module}
-#{py_puresitedir}/%{module}/*
-
+%{python_sitelib}/pypdf-%{version}.dist-info
+%{python_sitelib}/pypdf/
 #--------------------------------------------------------------------
 
 %prep
