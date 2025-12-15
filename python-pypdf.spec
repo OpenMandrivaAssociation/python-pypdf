@@ -2,8 +2,8 @@
 
 Summary:	Pure-Python PDF toolkit
 Name:		python-pypdf
-Version:	5.5.0
-Release:	2
+Version:	6.4.2
+Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/p/pypdf/pypdf-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
