@@ -10,6 +10,7 @@ Group:		Development/Python
 Url:		https://github.com/py-pdf/pypdf
 Provides:	%{module}
 BuildRequires:	python-devel
+BuildRequires: python%{pyver}dist(pip)
 BuildArch:	noarch
 
 %description
