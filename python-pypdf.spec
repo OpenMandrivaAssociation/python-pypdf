@@ -2,7 +2,7 @@
 
 Summary:	Pure-Python PDF toolkit
 Name:		python-pypdf
-Version:	6.4.2
+Version:	6.14.2
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/p/pypdf/pypdf-%{version}.tar.gz
 License:	BSD
@@ -28,7 +28,7 @@ A Pure-Python library built as a PDF toolkit. It is capable of:
 #--------------------------------------------------------------------
 
 %prep
-%autosetup -n pypdf-%{version} -p1
+%autosetup -n pypdf-6.14.2 -p1
 
 %build
 %py_build
