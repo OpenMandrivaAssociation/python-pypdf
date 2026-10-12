@@ -9,8 +9,8 @@ License:	BSD
 Group:		Development/Python
 Url:		https://github.com/py-pdf/pypdf
 Provides:	%{module}
-BuildRequires:	python-devel
-BuildRequires: python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(flit-core)
 BuildArch:	noarch
 
 %description
@@ -28,7 +28,7 @@ A Pure-Python library built as a PDF toolkit. It is capable of:
 #--------------------------------------------------------------------
 
 %prep
-%autosetup -n pypdf-6.14.2 -p1
+%autosetup -n pypdf-%{version} -p1
 
 %build
 %py_build
